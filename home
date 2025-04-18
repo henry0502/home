@@ -1,1 +1,59 @@
+HTML
 
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>虎尾糖廠巡禮</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>歡迎來到虎尾糖廠</h1>
+        <nav>
+            <ul>
+                <li><a href="#history">糖廠歷史</a></li>
+                <li><a href="#architecture">文化與建築</a></li>
+                <li><a href="#visit">參觀資訊</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <img src="images/huwei_sugar_factory.jpg" alt="虎尾糖廠的壯麗景象">
+            <div class="hero-text">
+                <h2>見證台灣糖業的百年風華</h2>
+                <p>探索虎尾糖廠的歷史、文化和美麗的建築。</p>
+                <a href="#history" class="button">了解更多</a>
+            </div>
+        </section>
+
+        <section id="history">
+            <h2>糖廠歷史</h2>
+            <p>虎尾糖廠創建於日治時期，是台灣製糖產業的重要據點之一。這裡曾見證了台灣糖業的興盛與轉型...</p>
+            </section>
+
+        <section id="architecture">
+            <h2>文化與建築</h2>
+            <p>糖廠內保留了許多具有歷史意義的建築，例如辦公廳、廠房、宿舍和運輸鐵道...</p>
+            </section>
+
+        <section id="visit">
+            <h2>參觀資訊</h2>
+            <p>歡迎您前來虎尾糖廠參觀！我們的開放時間是...</p>
+            </section>
+
+        <section id="contact">
+            <h2>聯絡我們</h2>
+            <p>如果您有任何問題，歡迎隨時與我們聯繫...</p>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 虎尾糖廠巡禮</p>
+    </footer>
+</body>
+</html>
